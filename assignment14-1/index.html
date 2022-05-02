@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="html, css, javascript, Metronome, metronome">
+    <meta name="description" content="Metronome, Metronome with javascript">
+    <meta name="author" content="Fatemeh Kazemi">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Fatemeh Kazemi</title>
+</head>
+<body>
+    
+    <div class="border">
+        <h1 id="name">Metronome</h1>
+        <hr>
+        <div class="top">
+            <p><span id="show-value">50</span> <sub>BPM</sub></p>
+            <img src="images/play-icon.png" id="play">
+        </div>
+
+        <div class="bottom">
+            <img src="images/minus-icon.png" id="minus">
+            <input type="range" id="range-input" min="0" max="100" value="50" step="1">
+            <img src="images/plus-icon.png" id="plus">
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

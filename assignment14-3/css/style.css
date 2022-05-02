@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(162,228,237);
+    background: radial-gradient(circle, rgba(162,228,237,1) 0%, rgba(135,226,123,1) 100%);
+    text-align: right;
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    width: 500px;
+}
+
+/**********/
+#open-form-button{
+    width: 100%;
+    background: rgb(200, 100, 255);
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #fff;
+    margin: 10px 0;
+}
+#form-section{
+    width: 100%;
+    padding: 5px 10px;
+    background: mistyrose;
+    border-radius: 5px;
+}
+.display-form{
+    display: none;
+}
+#form-section #from-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+#form-section form{
+    padding: 15px 10px;
+}
+.block-input{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 10px 0;
+    border: 1px solid rgb(190, 190, 190);
+    outline: none;
+}
+#form-section form .notification{
+    margin: 20px 0;
+    text-align: center;
+}
+button#register{
+    width: 100%;
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px;
+}
+/******/
+.isMarried, .isChildren{
+    display: none;
+}
+
+#plus{
+    text-align: center;
+    display: inline-block;
+    width: 30px;
+    padding: 5px;
+    background-color: rgb(70, 170, 0);
+    color: #fff;
+    font-size: 20px; 
+    cursor: pointer;
+}
+#minus{
+    text-align: center;
+    display: inline-block;
+    width: 30px;
+    padding: 5px;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}

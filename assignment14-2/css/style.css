@@ -1,0 +1,28 @@
+.main{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#spinner{
+    cursor: pointer;
+}
+#arrow-icon{
+    margin-top: 100px;
+    transform: rotate(15deg);
+}
+
+.blink {
+    -webkit-animation: 1s linear blink_effect; /* for Safari 4.0 - 8.0 */
+    animation: .5s linear infinite blink_effect;
+  }
+@-webkit-keyframes blink_effect {
+    0% {
+      visibility: hidden;
+    }
+    50% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+}
